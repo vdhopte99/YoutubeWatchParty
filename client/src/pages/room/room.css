@@ -1,0 +1,117 @@
+.room {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    margin: 30px 0;
+    height: calc(100vh - 170px);
+    padding: 10px;
+    display: flex;
+}
+
+.roomVideo {
+    flex: 3
+}
+
+.roomChat {
+    flex: 1;
+}
+
+.roomChatWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+
+.roomVideoWrapper, .roomChatWrapper {
+    padding: 10px;
+    height: 100%;
+}
+
+.roomTopbar {
+    padding: 10px;
+    background-color: gray;
+    display: flex;
+}
+
+.roomBackButton {
+    border-radius: 10px;
+    border: none;
+    background-color: #1775ee;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.roomTopbarLeft {
+    flex: 2
+}
+
+.roomTopbarCenter {
+    flex: 6
+}
+
+.roomTopbarRight {
+    flex: 2;
+}
+
+.roomSearchbar {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchIcon {
+    font-size: 20px !important;
+    margin-left: 10px;
+  }
+  
+  .searchInput {
+    border: none;
+    width: 70%;
+  }
+  
+  .searchInput:focus {
+    outline: none;
+  }
+
+  .searchSubmit {
+    margin-left: 10px;  
+    margin-top: 4px;
+  }
+
+  .chatTop {
+    height: 100%;
+    overflow-y: scroll;
+    padding-right: 10px;
+  }
+  
+  .chatBottom {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .chatMessageInput {
+    width: 80%;
+    height: 60px;
+    padding: 10px;
+  }
+  
+  .chatSendButton {
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+  }
+

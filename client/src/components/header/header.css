@@ -1,0 +1,38 @@
+.header {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .headerLeft {
+    flex: 3;
+  }
+  
+  .logo {
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .headerRight {
+    flex: 4;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+  }
+
+  .headerProfilePicture {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin-right: 10px;
+  }

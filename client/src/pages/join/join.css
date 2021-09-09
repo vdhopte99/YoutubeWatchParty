@@ -1,0 +1,71 @@
+.join {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.joinWrapper {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.joinTop {
+    display: flex;
+    justify-content: center;
+}
+  
+.joinLogo {
+    font-size: 50px;
+    font-weight: 800;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.joinBottom {
+    display: flex;
+    justify-content: center;
+}
+  
+.joinOptionsBox {
+    height: 150px;
+    width: 50%;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.joinJoinButton {
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.joinBackButton {
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1775ee;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 50px;
+    margin-top: 10px;
+}
+  
